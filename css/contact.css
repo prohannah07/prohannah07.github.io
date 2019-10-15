@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak|Righteous&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(168,24,48),rgb(240,192,96) 70%);
+}
+
+#contactFormContainer{
+	height: 100vh;
+	font-family: Righteous;
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-size: large;
+}
+
+.navbar{
+	background: rgba(168,24,48,.5);
+}
+
+.navTextColor{
+	color: #F0F0C0;
+}
+
+.navTextColor:hover{
+	color: rgb(240,192,96);
+}
+
+
+.navbar-toggler-icon{
+	background-color: rgb(240,192,96);
+}
+
+.contactTitle{
+	margin-top: 60px;
+	padding-left: 10px;
+	color: rgb(240,192,96);
+	float: right; 
+	font-size: 2em;
+}
+
+.contact-form{
+
+}
+
+.fieldName{
+	float: left;
+	margin-left: 7%;
+	/*position: absolute;
+	top: 25%;*/
+	/*text-align: center;*/
+	font-family: Righteous, Sans-Serif;
+	color: #F0F0C0;
+	font-size: 1.2em;
+}
+
+.fieldBox{
+	/*float: center;*/
+
+	font-family: Righteous, Sans-Serif;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 5px;
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+}
+
+.fieldButtonReset{
+	/*float: center;*/
+	visibility: visible;
+	padding: 10px;
+	font-family: Righteous, Sans-Serif;
+	background: rgb(168,24,48);
+	color: #F0F0C0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fieldButtonReset:hover{
+	color: rgb(240,192,96);
+}
+
+.fieldButtonSend{
+	/*float: center;*/
+	padding: 10px;
+	font-family: Righteous, Sans-Serif;
+	background: rgb(168,24,48);
+	color: #F0F0C0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fieldButtonSend:hover{
+	color: rgb(240,192,96);
+}
+
+#footerID{
+	margin-top: 50%;
+	margin-bottom: -100%;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #F0F0C0;
+	color: rgb(168,24,48);
+}
+
+@media (min-width:750px){
+	.contactTitle{
+	margin-top: 15%;
+	color: rgb(240,192,96);
+	float: right; 
+	font-size: 3em;
+}
+
+.contact-form{
+
+}
+
+.fieldName{
+	float: right;
+	position: absolute;
+	top: 25%;
+	right: 0;
+	font-family: Righteous, Sans-Serif;
+	color: #F0F0C0;
+	font-size: 1.5em;
+}
+
+.fieldBox{
+	float: left;
+	font-family: Righteous, Sans-Serif;
+	margin-left: 5%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	padding: 5px;
+	width: 80%;
+	visibility: visible;
+}
+
+.fieldButtonReset{
+	visibility: visible;
+	float: right;
+	padding: 10px;
+	font-family: Righteous, Sans-Serif;
+	background: rgb(168,24,48);
+	color: #F0F0C0;
+}
+.fieldButtonSend{
+	/*float: left;*/
+	padding: 10px;
+	font-family: Righteous, Sans-Serif;
+	background: rgb(168,24,48);
+	color: #F0F0C0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerID{
+	margin-top: 0;
+	margin-bottom: -100%;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #F0F0C0;
+	color: rgb(168,24,48);
+}
+
+}
+
+
+
+.Acheck{
+	visibility: hidden;
+}
